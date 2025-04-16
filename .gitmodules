@@ -1,0 +1,3 @@
+[submodule "OSYUI"]
+	path = OSYUI
+	url = git@github.com:ramalt/OSYUI.git

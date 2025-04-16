@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "dev": "concurrently -k \"npm run react-dev\" \"wait-on http://localhost:5173 && electron .\"",
-    "react-dev": "cd ui && npm run dev",
+    "react-dev": "cd OSYUI && npm run dev",
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
