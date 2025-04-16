@@ -1,0 +1,21 @@
+{
+  "name": "era1",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "main.js",
+  "scripts": {
+    "dev": "concurrently -k \"npm run react-dev\" \"wait-on http://localhost:5173 && electron .\"",
+    "react-dev": "cd ui && npm run dev",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jane Doe",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^9.1.2",
+     "wait-on": "^7.0.1"
+  },
+  "devDependencies": {
+    "electron": "23.1.3"
+  }
+}
